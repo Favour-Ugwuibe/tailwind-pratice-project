@@ -13,35 +13,61 @@
     
     <header class="h-18 w-full border-b border-gray-300 sticky top-0 bg-Darkblue z-50">
         <nav class="h-full w-full flex items-center justify-between px-4">
-            <div>
-                <span class="border-b-Lightblue-"><i class="fa-solid fa-bolt text-white"></i></span>
-                <h1 class="text-white">Nexus</h1>
-            </div>
+            <div class="flex gap-2 items-center">
+                <span class="bg-Lightblue rounded-lg p-1"><i class="fa-solid fa-bolt text-white text-sm"></i></span>
+                <h1 class="text-white font-medium">Nexus</h1>
+                </div>
 
-            <!-- desktop navigation -->
-             <ul class="hidden lg:flex gap-8 text-white">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                <!-- desktop navigation -->
+                
+                <ul class="hidden lg:flex items-center gap-8 text-white">
+                    <li><a href="#" class="hover:text-Lightblue">Home</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">Services</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">About</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">Contact</a></li> 
                 </ul>
+                 <div class="text-white bg-Lightblue py-2 px-3 rounded-lg hidden lg:block"><a href="#">Get Started</a></div>
+                
 
                 <!-- mobile navigation -->
 
-                    <div>
-                        <span><i class="fa-solid fa-b"></i></span>
+                    <div class="lg:hidden">
+                       <button class="text-white"><i class="fa-solid fa-bars"></i></button>
                 
 
-                    <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <ul class="text-white absolute top-full left-0 bg-Darkblue flex flex-col border-t border-white/10 items-center gap-4 max-w-60 h-[calc(100vh-4.5rem)] hidden">
+                    <li><a href="#" class="hover:text-Lightblue">Home</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">Services</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">About</a></li>
+                    <li><a href="#" class="hover:text-Lightblue">Contact</a></li>
                 </ul>
                 </div>
-
-                <div><a href="#">Get Started</a></div>
         </nav>
     </header>
+
+    <main>
+        <section class="bg-Blueshade h-[calc(100vh-4.5rem)] flex flex-col md:flex-row items-center gap-10 p-8">
+
+            <div class="container mx-auto h-full flex flex-col justify-center gap-6 relative z-2">
+
+            <div class="flex justify-end items-center md:w-1/2 h-screen">
+                <img src="./images/hero-image (1).png"
+                class="w-full rounded-xl object-cover" alt="">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-4xl capitalize font-bold text-white">Build Your <span class="text-Lightblue">Digital</span> future</h2>
+
+                <p class="text-white/70
+                 text-sm">Transform your business with our cutting-edge digital solutions that drive growth and innovation in the digital landscape.</p>
+            </div>
+        
+            <div class="text-white flex flex-col gap-4 md:flex-row">
+                <a href="#" class="bg-Lightblue py-2 px-4 rounded-lg hover:bg-Darkblue capitalize text-center">Start your journey</a>
+                <a href="#" class=" border
+                border-gray rounded-lg text-center py-2 px-4 hover:underline">Learn More</a>
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html> 
