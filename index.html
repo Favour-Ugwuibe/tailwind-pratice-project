@@ -11,22 +11,22 @@
 </head>
 <body>
     
-    <header class="h-18 w-full border-b border-gray-300 sticky top-0 bg-Darkblue z-50">
+    <header class="h-18 w-full border-b border-gray-300 sticky top-0 bg-darkblue z-50">
         <nav class="h-full w-full flex items-center justify-between px-4">
             <div class="flex gap-2 items-center">
-                <span class="bg-Lightblue rounded-lg p-1"><i class="fa-solid fa-bolt text-white text-sm"></i></span>
+                <span class="bg-lightblue rounded-lg p-1"><i class="fa-solid fa-bolt text-white text-sm"></i></span>
                 <h1 class="text-white font-medium">Nexus</h1>
                 </div>
 
                 <!-- desktop navigation -->
                 
                 <ul class="hidden lg:flex items-center gap-8 text-white">
-                    <li><a href="#" class="hover:text-Lightblue">Home</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">Services</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">About</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">Contact</a></li> 
+                    <li><a href="#" class="hover:text-lightblue">Home</a></li>
+                    <li><a href="#" class="hover:text-lightblue">Services</a></li>
+                    <li><a href="#" class="hover:text-lightblue">About</a></li>
+                    <li><a href="#" class="hover:text-lightblue">Contact</a></li> 
                 </ul>
-                 <div class="text-white bg-Lightblue py-2 px-3 rounded-lg hidden lg:block"><a href="#">Get Started</a></div>
+                 <div class="text-white bg-lightblue py-2 px-3 rounded-lg hidden lg:block"><a href="#">Get Started</a></div>
                 
 
                 <!-- mobile navigation -->
@@ -35,39 +35,196 @@
                        <button class="text-white"><i class="fa-solid fa-bars"></i></button>
                 
 
-                    <ul class="text-white absolute top-full left-0 bg-Darkblue flex flex-col border-t border-white/10 items-center gap-4 max-w-60 h-[calc(100vh-4.5rem)] hidden">
-                    <li><a href="#" class="hover:text-Lightblue">Home</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">Services</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">About</a></li>
-                    <li><a href="#" class="hover:text-Lightblue">Contact</a></li>
+                    <ul class="text-white absolute top-full left-0 bg-darkblue flex-col border-t border-white/10 items-center gap-4 max-w-60 h-[calc(100vh-4.5rem)] hidden">
+                    <li><a href="#" class="hover:text-lightblue">Home</a></li>
+                    <li><a href="#" class="hover:text-lightblue">Services</a></li>
+                    <li><a href="#" class="hover:text-lightblue">About</a></li>
+                    <li><a href="#" class="hover:text-lightblue">Contact</a></li>
                 </ul>
                 </div>
         </nav>
     </header>
 
     <main>
-        <section class="bg-Blueshade h-[calc(100vh-4.5rem)] flex flex-col md:flex-row items-center gap-10 p-8">
+      <section class="bg-darkblue w-full">
 
-            <div class="container mx-auto h-full flex flex-col justify-center gap-6 relative z-2">
+    <div class="container mx-auto px-4 md:px-10 lg:px-20 py-16 flex flex-col md:flex-row items-center gap-10 md:gap-12">
 
-            <div class="flex justify-end items-center md:w-1/2 h-screen">
-                <img src="./images/hero-image (1).png"
-                class="w-full rounded-xl object-cover" alt="">
+    
+        <article class="flex flex-col gap-6 w-full md:w-3/5">
+            <h2 class="text-4xl md:text-5xl lg:text-7xl capitalize font-bold text-white">Build Your <span class="text-lightblue">Digital</span> future</h2>
+
+            <p class="text-white/70 text-sm md:text-base lg:text-lg">Transform your business with our cutting-edge digital solutions that drive growth and innovation in the digital landscape.</p>
+
+            <div class="text-white flex  gap-4 lg:gap-6">
+                <a href="#" class="bg-lightblue py-2 px-4 rounded-lg hover:bg-darkblue capitalize text-center text-sm">Start your journey</a>
+                <a href="#" class="border border-gray-200/20 rounded-lg text-center py-2 px-4 hover:underline">Learn More</a>
             </div>
-            <div class="md:w-1/2">
-                <h2 class="text-4xl capitalize font-bold text-white">Build Your <span class="text-Lightblue">Digital</span> future</h2>
+        </article>
 
-                <p class="text-white/70
-                 text-sm">Transform your business with our cutting-edge digital solutions that drive growth and innovation in the digital landscape.</p>
-            </div>
         
-            <div class="text-white flex flex-col gap-4 md:flex-row">
-                <a href="#" class="bg-Lightblue py-2 px-4 rounded-lg hover:bg-Darkblue capitalize text-center">Start your journey</a>
-                <a href="#" class=" border
-                border-gray rounded-lg text-center py-2 px-4 hover:underline">Learn More</a>
-            </div>
-            </div>
-        </section>
-    </main>
+        <div class="w-full md:w-1/2">
+            <img src="./images/hero-image (1).png"
+            class="w-full rounded-lg object-cover" alt="Hero Image">
+        </div>
+ 
+    </div>
+     </section>
+
+     <!-- Services section -->
+
+    <section class="w-full bg-blueshade">
+  <div class="w-9/10 max-w-8xl py-16 px-4 mx-auto flex flex-col gap-12 lg:px-16 text-white">
+    
+    <div class="flex flex-col gap-4 items-center text-center">
+      <h3 class="font-bold text-3xl">Our Services</h3>
+      <p class="text-sm text-center w-9/10 max-w-120 2xl:max-w-180">We provide comprehensive solutions to help your business thrive in the digital age.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+
+        <!-- first card -->
+        <div class="flex flex-col gap-4 bg-white/5 border border-white/10 rounded-xl p-6">
+        <div class="w-10 h-10 bg-lightblue rounded-lg flex items-center justify-center">
+          <i class="fa-solid fa-code text-white text-sm"></i>
+        </div>
+        <h4 class="font-bold">Web Development</h4>
+        <p class="text-white/70 text-sm">Custom websites and web applications built with modern technologies for optimal performance.</p>
+      </div>
+
+      <!-- second card -->
+
+      <div class="flex flex-col gap-4 bg-white/5 border border-white/10 rounded-xl p-6">
+
+        <div class="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
+
+          <i class="fa-solid fa-mobile-screen text-white text-sm"></i>
+
+        </div>
+
+        <h4 class="font-bold">Mobile Apps</h4>
+
+        <p class="text-white/70 text-sm">Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+      </div>
+
+      <!-- third card -->
+
+      <div class="flex flex-col gap-4 bg-white/5 border border-white/10 rounded-xl p-6">
+
+        <div class="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center">
+
+          <i class="fa-solid fa-chart-line text-white text-sm"></i>
+
+        </div>
+
+        <h4 class="font-bold">Digital Marketing</h4>
+
+        <p class="text-white/70 text-sm">Strategic marketing campaigns that boost your online presence and drive conversions.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!-- about section -->
+<section class="w-full bg-darkblue">
+
+  <div class="container mx-auto px-4 md:px-10 lg:px-20 py-16 flex flex-col md:flex-row items-center gap-10 md:gap-12">
+    
+    <div class="w-full md:w-1/2">
+      <img src="./images/about-image (1).png" alt="About Nexus" class="w-full rounded-lg object-cover">
+    </div>
+
+    <div class="w-full md:w-1/2 flex flex-col gap-4 text-white">
+
+      <h3 class="text-3xl md:text-4xl font-bold">About Nexus</h3>
+
+      <p class="text-white/70 text-sm md:text-base">We are a forward-thinking technology company dedicated to helping businesses navigate the digital transformation journey. With years of experience and a passion for innovation, we deliver solutions that matter.</p>
+
+      <div class="flex gap-8 mt-2">
+
+        <div>
+          <span class="text-2xl font-bold text-lightblue">150+</span>
+          <span class="text-sm text-white/60">Projects Completed</span>
+        </div>
+        <div>
+          <span class="text-2xl font-bold text-green-400">98%</span>
+          <span class="text-sm text-white/60">Client Satisfaction</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- contact section -->
+<section class="w-full bg-blueshade">
+  <div class="container mx-auto px-4 md:px-10 lg:px-20 py-16 flex flex-col gap-10 text-white">
+    
+    <div class="flex flex-col gap-3 items-center text-center">
+      <h3 class="text-3xl font-bold">Get In Touch</h3>
+      <p class="text-sm text-white/70 max-w-lg">Ready to start your project? Let's discuss how we can help you achieve your goals.</p>
+    </div>
+
+    <div class="flex flex-col md:flex-row gap-10 md:gap-16 border border-white/10 bg-white/5 py-10 px-4 rounded-lg">
+      
+      <div class="flex flex-col gap-4 md:w-2/5">
+
+        <div class="flex items-center gap-3 text-sm text-white/80">
+          <i class="fa-solid fa-envelope text-lightblue w-4"></i>
+          <span>hello@nexus.com</span>
+        </div>
+
+        <div class="flex items-center gap-3 text-sm text-white/80">
+          <i class="fa-solid fa-phone text-lightblue w-4"></i>
+          <span>+1 (555) 123-4567</span>
+        </div>
+
+        <div class="flex items-center gap-3 text-sm text-white/80">
+
+          <i class="fa-solid fa-location-dot text-lightblue w-4"></i>
+
+          <span>123 Business Ave, Tech City</span>
+
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-4 md:w-3/5">
+
+        <input type="text" placeholder="Your Name" class="border border-white/10 bg-white/10  rounded-lg px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none w-full">
+
+        <input type="email" placeholder="Your Email" class="border border-white/10 bg-white/10  rounded-lg px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none w-full">
+
+            <textarea placeholder="Your Message" rows="4" class="border border-white/10 bg-white/10  rounded-lg px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none w-full resize-none"></textarea>
+
+            <button class="bg-lightblue text-white py-2 rounded-lg text-sm hover:opacity-90 w-full">Send Message</button>
+      </div>
+    </div>
+    </div>
+    </section>
+
+</main>
+
+<!-- footer -->
+
+<footer class="bg-blueshade border-t border-white/10 py-5 px-4">
+
+  <div class="container mx-auto flex flex-wrap items-center justify-between gap-3">
+    
+    <div class="flex items-center gap-2">
+      <span class="bg-lightblue rounded-lg p-1"><i class="fa-solid fa-bolt text-white text-sm"></i></span>
+      <h1 class="text-white font-medium">Nexus</h1>
+    </div>
+
+    <p class="text-white text-sm">© 2024 Nexus. All rights reserved.</p>
+
+    <div class="flex gap-4 text-white text-sm">
+      <a href="#" class="hover:text-lightblue"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="hover:text-lightblue"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="hover:text-lightblue"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+  </div>
+</footer>
 </body>
 </html> 
